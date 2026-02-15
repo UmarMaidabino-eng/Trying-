@@ -1,138 +1,169 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Alfaruk Faith Bridge Awareness Foundation</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alfaruk Faith Bridge Awareness Foundation</title>
 
-```
 <style>
-    body {
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: #f5f7fa;
-    }
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+}
 
-    header {
-        background: #0b5ed7;
-        color: white;
-        padding: 30px 15px;
-        text-align: center;
-    }
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #0b5ed7, #198754);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
 
-    nav {
-        background: #083a8c;
-        text-align: center;
-        padding: 12px;
-    }
+header img {
+    width: 130px;
+    margin-bottom: 15px;
+}
 
-    nav a {
-        color: white;
-        margin: 15px;
-        text-decoration: none;
-        font-weight: bold;
-    }
+header h1 {
+    margin: 10px 0 5px;
+}
 
-    nav a:hover {
-        text-decoration: underline;
-    }
+header p {
+    font-size: 18px;
+}
 
-    section {
-        padding: 30px 20px;
-        max-width: 900px;
-        margin: auto;
-    }
+/* SECTIONS */
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 20px;
+}
 
-    h2 {
-        color: #0b5ed7;
-    }
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
 
-    .card {
-        background: white;
-        padding: 20px;
-        margin-bottom: 20px;
-        border-radius: 8px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
+h2 {
+    color: #0b5ed7;
+    margin-top: 0;
+}
 
-    footer {
-        background: #083a8c;
-        color: white;
-        text-align: center;
-        padding: 15px;
-        margin-top: 20px;
-    }
+/* PROGRAM LIST */
+ul {
+    padding-left: 20px;
+}
 
-    .contact {
-        line-height: 1.8;
+ul li {
+    margin-bottom: 8px;
+}
+
+/* BUTTONS */
+.btn {
+    display: inline-block;
+    padding: 12px 22px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* FOOTER */
+footer {
+    background: #0b5ed7;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 40px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 22px;
     }
+}
 </style>
-```
-
 </head>
 
 <body>
 
 <header>
+    <img src="logo.png" alt="Foundation Logo">
     <h1>Alfaruk Faith Bridge Awareness Foundation</h1>
-    <p>Promoting Faith, Awareness and Community Development</p>
+    <p>Promoting Faith, Unity & Community Awareness</p>
 </header>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#mission">Mission</a>
-    <a href="#activities">Activities</a>
-    <a href="#contact">Contact</a>
-</nav>
-
-<section id="about">
+<section>
     <div class="card">
         <h2>About Us</h2>
         <p>
-            Alfaruk Faith Bridge Awareness Foundation is a community-based organization
-            dedicated to promoting awareness, moral values, faith-based guidance, and
-            positive social development. We work to educate, support, and inspire
-            individuals and communities toward a better and more responsible life.
+            Alfaruk Faith Bridge Awareness Foundation is a non-profit organization dedicated
+            to building understanding between faith communities, promoting peace, education,
+            and social responsibility.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Our Mission</h2>
+        <ul>
+            <li>Promote interfaith understanding and harmony</li>
+            <li>Educate communities on peace and coexistence</li>
+            <li>Support youth development and moral values</li>
+            <li>Encourage humanitarian and social responsibility</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Our Programs</h2>
+        <ul>
+            <li>Faith Awareness Campaigns</li>
+            <li>Community Outreach Programs</li>
+            <li>Youth & Educational Support</li>
+            <li>Peace & Dialogue Initiatives</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Gallery</h2>
+        <p>
+            Photos and activities from our programs will be displayed here.
+            (Gallery feature coming soon.)
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Contact Information</h2>
+        <p><strong>Location:</strong> Kadangaru, Dutsinma, Nigeria</p>
+        <p><strong>Email:</strong> afbafoundation@gmail.com</p>
+
+        <a class="btn" href="https://wa.me/2349021770097" target="_blank">
+            Chat with us on WhatsApp
+        </a>
+    </div>
+
+    <div class="card">
+        <h2>Support Our Work</h2>
+        <p>
+            Your support helps us continue our awareness programs and humanitarian efforts.
+            For donations and partnerships, please contact us directly.
         </p>
     </div>
 </section>
 
-<section id="mission">
-    <div class="card">
-        <h2>Our Mission</h2>
-        <ul>
-            <li>Promote faith-based awareness and moral education</li>
-            <li>Support community development and social responsibility</li>
-            <li>Encourage unity, peace, and positive values</li>
-            <li>Create awareness on important social and religious issues</li>
-        </ul>
-    </div>
-</section>
-
-<section id="activities">
-    <div class="card">
-        <h2>Our Activities</h2>
-        <ul>
-            <li>Community awareness programs</li>
-            <li>Religious and moral education sessions</li>
-            <li>Youth guidance and mentorship</li>
-            <li>Public enlightenment campaigns</li>
-        </ul>
-    </div>
-</section>
-
-<section id="contact">
-    <div class="card contact">
-        <h2>Contact Us</h2>
-        <p><strong>Email:</strong> afbafoundation@gmail.com</p>
-        <p><strong>Location:</strong> Kadangaru, Dutsinma, Nigeria</p>
-        <p>If you would like to support, partner, or learn more about our programs, please contact us through the email above.</p>
-    </div>
-</section>
-
 <footer>
-    <p>© 2026 Alfaruk Faith Bridge Awareness Foundation</p>
+    © 2026 Alfaruk Faith Bridge Awareness Foundation <br>
+    Building Bridges of Faith & Understanding
 </footer>
 
 </body>
